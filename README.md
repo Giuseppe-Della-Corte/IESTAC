@@ -1,7 +1,7 @@
 # SST-Augmented-Audiobooks
 STT-Aligned-Audiobooks (Speech, Text, Textual Translation, Aligned Audiobooks) is a corpus of around 130 hours of English audio utterances aligned with their English source texts and their Italian textual translations. The multimodal corpus can be used to train English-Italian End-to-End Speech Translation models, English ASR models, or statistical MT models. 
 
-A binary file containing 60561 triplets of parallel English audio, English text, and Italian textual translation is available at https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it. 
+A binary file containing 60561 triplets of parallel English audio, English text, and Italian textual translation is available at https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it. The Kaggle dataset also contains two parallel texts for MT.
 
 For more information on the methodology used in order to collect, gather, and align the data, please read:
 - to be added
