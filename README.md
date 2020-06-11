@@ -3,9 +3,6 @@ STT-Aligned-Audiobooks (Speech, Text, Textual Translation, Aligned Audiobooks) i
 
 A binary file containing 60561 triplets of parallel English audio, English text, and Italian textual translation is available at https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it. The Kaggle dataset also contains two parallel texts for MT.
 
-For more information on the methodology used in order to collect, gather, and align the data, please read:
-- to be added
-
 Numpy arrays containing 40-MFCC features extracted from the audio segments and aligned with the English transcription and the Italian textual translation are available at https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it. 
 
 
@@ -19,3 +16,5 @@ License][cc-by].
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE. THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE").
