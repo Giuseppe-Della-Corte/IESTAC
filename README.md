@@ -1,18 +1,5 @@
 # SST-Aligned-Audiobooks
-SST-Aligned-Audiobooks is a multimodal corpus that can be used to train English-to-Italian End-to-End Speech-to-Text Machine Translation models, English ASR models, or English-to-Italian/Italian-to-English statistical textual Machine Translation models. 
-
-The corpus consists of 60561 triplets of English audio, English source text, and Italian textual translation. These segments were extracted from 373 chapters read by 98 speakers for a total amount of 131.23 hours of English audio aligned with both its English source text and its Italian textual translation. 
-
-Author: **Giuseppe Della Corte**
-
-Course: **Master's Thesis in Language Technology, Uppsala University**
-
-Supervisor: **Sara Stymne**
-
-## Links to Corpus Download
-A binary file containing the 60561 triplets of parallel English audio, English text, and Italian textual translation is available as a <a href="https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it/">Kaggle dataset</a>. The Kaggle dataset also contains two parallel texts for textual Machine Translation.
-
-Numpy arrays containing 40-MFCC features extracted from the audio segments and aligned with their English transcription and their Italian textual translations are available through <a href="https://drive.google.com/file/d/19bpKRnIGwZU1bbFURSNCbi95xO8-xdk-/view?usp=sharing">Google Drive.</a>
+SST-Aligned-Audiobooks is a multimodal corpus that can be used to train English-to-Italian End-to-End Speech-to-Text Machine Translation models, English ASR models, or English-to-Italian/Italian-to-English statistical textual Machine Translation models. The corpus consists of 60561 triplets of English audio, English source text, and Italian textual translation. These segments were extracted from 373 chapters read by 98 speakers for a total amount of 131.23 hours of English audio aligned with both its English source text and its Italian textual translation.
 
 ## Methodology
 To read in details the methodological approach, the experiments, and the evaluation of this corpus, please refer to <a href="https://www.diva-portal.org/smash/get/diva2:1440026/FULLTEXT01.pdf">Text and Speech Alignment Methods for Speech Translation Corpora Creation: Augmenting English LibriVox Recordings with Italian Textual Translations</a>. What it follows is a table that provides a quick glance at the tasks tackled and the technologies used. 
@@ -29,6 +16,11 @@ To read in details the methodological approach, the experiments, and the evaluat
 | Forced Alignment | <a href="https://github.com/readbeyond/aeneas">Aeneas</a> |
 | Audio Processing and Features Extraction | <a href="https://github.com/astorfi/speechpy">Speechpy</a> |
 
+## Links to Corpus Download
+A binary file containing the 60561 triplets of parallel English audio, English text, and Italian textual translation is available as a <a href="https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it/">Kaggle dataset</a>. The Kaggle dataset also contains two parallel texts for textual Machine Translation.
+
+Numpy arrays containing 40-MFCC features extracted from the audio segments and aligned with their English transcription and their Italian textual translations are available through <a href="https://drive.google.com/file/d/19bpKRnIGwZU1bbFURSNCbi95xO8-xdk-/view?usp=sharing">Google Drive.</a>
+
 ## Corpus Statistics 
 
 | Datum | Value |
@@ -41,6 +33,12 @@ To read in details the methodological approach, the experiments, and the evaluat
 | Average Number of Chapters Read by Speaker | 3.80 |
 
 ## Reference
+
+Author: **Giuseppe Della Corte**
+
+Course: **Master's Thesis in Language Technology, Uppsala University**
+
+Supervisor: **Sara Stymne**
 To use this work please cite:
 
 ```
