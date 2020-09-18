@@ -39,6 +39,7 @@ Author: **Giuseppe Della Corte**
 Course: **Master's Thesis in Language Technology, Uppsala University**
 
 Supervisor: **Sara Stymne**
+
 To use this work please cite:
 
 ```
