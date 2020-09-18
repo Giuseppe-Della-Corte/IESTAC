@@ -9,6 +9,11 @@ Course: **Master's Thesis in Language Technology, Uppsala University**
 
 Supervisor: **Sara Stymne**
 
+## Links to Corpus Download
+A binary file containing the 60561 triplets of parallel English audio, English text, and Italian textual translation is available as a <a href="https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it/">Kaggle dataset</a>. The Kaggle dataset also contains two parallel texts for textual Machine Translation.
+
+Numpy arrays containing 40-MFCC features extracted from the audio segments and aligned with their English transcription and their Italian textual translations are available through <a href="https://drive.google.com/file/d/19bpKRnIGwZU1bbFURSNCbi95xO8-xdk-/view?usp=sharing">Google Drive.</a>
+
 ## Methodology
 To read in details the methodological approach, the experiments, and the evaluation of this corpus, please refer to <a href="https://www.diva-portal.org/smash/get/diva2:1440026/FULLTEXT01.pdf">Text and Speech Alignment Methods for Speech Translation Corpora Creation: Augmenting English LibriVox Recordings with Italian Textual Translations</a>. What it follows is a table that provides a quick glance at the tasks tackled and the technologies used. 
 
@@ -23,11 +28,6 @@ To read in details the methodological approach, the experiments, and the evaluat
 | Sentences Embeddings Based Bilingual Text Alignment | <a href="https://github.com/facebookresearch/LASER">Facebook LASER</a>, <a href="https://github.com/thompsonb/vecalign">Vecalign |
 | Forced Alignment | <a href="https://github.com/readbeyond/aeneas">Aeneas</a> |
 | Audio Processing and Features Extraction | <a href="https://github.com/astorfi/speechpy">Speechpy</a> |
-
-## Links to Corpus Download
-A binary file containing the 60561 triplets of parallel English audio, English text, and Italian textual translation is available as a Kaggle dataset <a href="https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it/">**Kaggle dataset**</a>. The Kaggle dataset also contains two parallel texts for textual Machine Translation.
-
-Numpy arrays containing 40-MFCC features extracted from the audio segments and aligned with their English transcription and their Italian textual translations are available through <a href="https://drive.google.com/file/d/19bpKRnIGwZU1bbFURSNCbi95xO8-xdk-/view?usp=sharing">Google Drive.</a>
 
 ## Corpus Statistics 
 
