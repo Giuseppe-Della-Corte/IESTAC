@@ -1,10 +1,58 @@
-# SST-Augmented-Audiobooks
-STT-Aligned-Audiobooks (Speech, Text, Textual Translation, Aligned Audiobooks) is a corpus of around 130 hours of English audio utterances aligned with their English source texts and their Italian textual translations. The multimodal corpus can be used to train English-Italian End-to-End Speech Translation models, English ASR models, or statistical MT models. 
+# SST-Aligned-Audiobooks
+SST-Aligned-Audiobooks is a multimodal corpus that can be used to train English-to-Italian End-to-End Speech-to-Text Machine Translation models, English ASR models, or English-to-Italian/Italian-to-English statistical textual Machine Translation models. 
 
-A binary file containing 60561 triplets of parallel English audio, English text, and Italian textual translation is available at https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it/. The Kaggle dataset also contains two parallel texts for MT.
+The corpus consists of 60561 triplets of English audio, English source text, and Italian textual translation. These segments were extracted from 373 chapters read by 98 speakers for a total amount of 131.23 hours of English audio aligned with both its English source text and its Italian textual translation. 
 
-Numpy arrays containing 40-MFCC features extracted from the audio segments and aligned with the English transcription and the Italian textual translation are available at https://drive.google.com/file/d/19bpKRnIGwZU1bbFURSNCbi95xO8-xdk-/view?usp=sharing. 
+Author: **Giuseppe Della Corte**
 
+Course: **Master's Thesis in Language Technology, Uppsala University**
+
+Supervisor: **Sara Stymne**
+
+## Methodology
+To read in details the methodological approach, the experiments, and the evaluation of this corpus, please refer to <a href="https://www.diva-portal.org/smash/get/diva2:1440026/FULLTEXT01.pdf">Text and Speech Alignment Methods for Speech Translation Corpora Creation: Augmenting English LibriVox Recordings with Italian Textual Translations</a>. What it follows is a table that provides a quick glance at the tasks tackled and the technologies used. 
+
+| Task | Technology|
+| ------------- | ---: |
+| English-to-Italian Books Titles Translation | Named Entity Recognition, WikiData, SPARQL| 
+| Data Collection | Web Scraping, BeautifulSoup|
+| Chapter Extraction from Text Files| Python, RegEx|
+| Sentence Segmentation | <a href="https://spacy.io/">SpaCy</a>|
+| Bilingual Dictionary Generation| <a href="www.statmt.org/moses/">Moses SMT</a>, <a href="https://github.com/moses-smt/giza-pp">Giza++</a>|
+| Gale-Church Based Bilingual Text Alignment | <a href="https://github.com/danielvarga/hunalignHunalign">Hunalign</a> |
+| Sentences Embeddings Based Bilingual Text Alignment | <a href="https://github.com/facebookresearch/LASER">Facebook LASER</a>, <a href="https://github.com/thompsonb/vecalign">Vecalign |
+| Forced Alignment | <a href="https://github.com/readbeyond/aeneas">Aeneas</a> |
+| Audio Processing and Features Extraction | <a href="https://github.com/astorfi/speechpy">Speechpy</a> |
+
+## Links to Corpus Download
+A binary file containing the 60561 triplets of parallel English audio, English text, and Italian textual translation is available as a Kaggle dataset <a href="https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it/">**Kaggle dataset**</a>. The Kaggle dataset also contains two parallel texts for textual Machine Translation.
+
+Numpy arrays containing 40-MFCC features extracted from the audio segments and aligned with their English transcription and their Italian textual translations are available through <a href="https://drive.google.com/file/d/19bpKRnIGwZU1bbFURSNCbi95xO8-xdk-/view?usp=sharing">Google Drive.</a>
+
+## Corpus Statistics 
+
+| Datum | Value |
+| ------------- | :---: |
+| Aligned Segments | 60561 |
+| Average Segment Duration | 7.80s |
+| Total Hours of English Speech | 131.23 |
+| Number of Speakers | 98 |
+| Number of Aligned Chapters | 373 |
+| Average Number of Chapters Read by Speaker | 3.80 |
+
+## Reference
+To use this work please cite:
+
+```
+@misc{della2020text,
+  title={Text and Speech Alignment Methods for Speech Translation Corpora Creation: \
+         Augmenting English LibriVox Recordings with Italian Textual Translations},
+  author={Della Corte, Giuseppe},
+  year={2020}
+  url={https://www.diva-portal.org/smash/get/diva2:1440026/FULLTEXT01.pdf} 
+}
+```
+## Licence
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
