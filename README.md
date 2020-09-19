@@ -1,5 +1,5 @@
 # SST-Aligned-Audiobooks
-SST-Aligned-Audiobooks is a multimodal corpus that can be used to train English-to-Italian End-to-End Speech-to-Text Machine Translation models, English ASR models, or English-to-Italian/Italian-to-English statistical textual Machine Translation models. The corpus consists of 60561 triplets of English audio, English source text, and Italian textual translation. These segments were extracted from 373 chapters read by 98 speakers for a total amount of 131.23 hours of English audio aligned with both its English source text and its Italian textual translation.
+SST-Aligned-Audiobooks is a multimodal corpus designed to train English-to-Italian End-to-End Speech-to-Text Machine Translation models. The corpus consists of 60561 triplets of English audio, English source text, and Italian textual translation. These segments were extracted from 373 chapters read by 98 speakers for a total amount of 131.23 hours of English audio aligned with both its English source text and its Italian textual translation.
 
   * [Methodology](#methodology)
   * [Links to Corpus Download](#links-to-corpus-download)
@@ -20,7 +20,7 @@ To read in details the methodological approach, the experiments, and the evaluat
 | Gale-Church Based Bilingual Text Alignment | <a href="https://github.com/danielvarga/hunalignHunalign">Hunalign</a> |
 | Sentences Embeddings Based Bilingual Text Alignment | <a href="https://github.com/facebookresearch/LASER">Facebook LASER</a>, <a href="https://github.com/thompsonb/vecalign">Vecalign |
 | Forced Alignment | <a href="https://github.com/readbeyond/aeneas">Aeneas</a> |
-| Audio Processing and Features Extraction | <a href="https://github.com/astorfi/speechpy">Speechpy</a> |
+| Audio Processing and Features Extraction | <a href="https://github.com/astorfi/speechpy">Speechpy</a>, <a href="https://numpy.org/">Numpy</a> |
 
 ## Links to Corpus Download
 A binary file containing the 60561 triplets of parallel English audio, English text, and Italian textual translation is available as a <a href="https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it/">Kaggle dataset</a>. The Kaggle dataset also contains two parallel texts for textual Machine Translation.
