@@ -120,8 +120,6 @@ Numpy arrays containing 40-MFCC features extracted from the audio segments and a
 
 ## Reference
 
-Authors: **Giuseppe Della Corte, Sara Stymne**
-
 Course: **Master's Thesis in Language Technology, Uppsala University**
 
 Supervisor: **Sara Stymne**
