@@ -1,5 +1,6 @@
-# SST-Aligned-Audiobooks
-SST-Aligned-Audiobooks is a corpus designed to train English-to-Italian End-to-End Speech-to-Text Machine Translation models. The corpus consists of 60561 triplets of English audio, English source texts, and Italian textual translations. These segments were extracted from 373 chapters read by 98 speakers for a total amount of 131.23 hours of English audio aligned with both its English source text and its Italian textual translation.
+# IESTAC
+
+IESTAC (Italian-English speech and text audiobook corpus) is a corpus designed to train English-to-Italian End-to-End Speech-to-Text Machine Translation models. The corpus consists of 60561 triplets of English audio, English source texts, and Italian textual translations. These segments were extracted from 373 chapters read by 98 speakers for a total amount of 131.23 hours of English audio aligned with both its English source text and its Italian textual translation.
 
   * [Methodology](#methodology)
   * [SQL Database](#sql-database)
