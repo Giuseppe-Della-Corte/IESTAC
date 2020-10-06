@@ -140,6 +140,12 @@ To use this work please cite:
 This corpus is intended for countries were literary works enter in the public domain 50 years after the death of the author. Please remember that translators have to be considered authors as well, as translations are creative works. You'll have
 to check the laws of the country where you are located before using this corpus.
 
+You agree to indemnify and hold the authors of the corpus and any contributor harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+corpus, (b) alteration, modification, or
+additions or deletions to this corpus, and (c) any defect you cause.
+
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a [Creative Commons Attribution 4.0 International
