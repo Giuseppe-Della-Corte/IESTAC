@@ -25,7 +25,7 @@ To read in details the methodological approach, the experiments, and the evaluat
 | Audio Processing and Features Extraction | <a href="https://github.com/astorfi/speechpy">Speechpy</a>, <a href="https://numpy.org/">Numpy</a> |
 
 ## SQL Database
-**database.sql.sz** contains a compressed SQL database that allows users to query the corpus according to their needs.
+**database.sql.gz** contains a compressed SQL database that allows users to query the corpus according to their needs.
 The database is composed of 6 tables.
 
 The **metadata** table provides information regarding the original author, the Italian translator, book titles etc...
