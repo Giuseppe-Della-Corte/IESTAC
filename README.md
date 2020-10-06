@@ -49,7 +49,6 @@ alignments
 | it_text       | text  | NO   |     | NULL    |                |
 | book_id       | int   | NO   |     | NULL    |                |
 | chapter_id    | int   | NO   |     | NULL    |                |
-| score         | float | YES  |     | NULL    |                |
 +---------------+-------+------+-----+---------+----------------+
 
 audio_chapters
