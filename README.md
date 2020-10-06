@@ -32,8 +32,8 @@ The **metadata** table provides information regarding the original author, the I
 In case we did not find the Italian translator, a reference to the publication is given. 
 
 The **public_domain_status** table provides information  regarding authors and their date of death. 
-You have to respect the copyright laws of your country. This corpus is intended for countries were literary works enter in the public domain 50 years after the death of the author. Please remember that translators have to be considered authors as well, as translations are creative works. You'll have
-to check the laws of the country where you are located before using this corpus. Filter out the works that you cannot use according to the laws of your country.
+You have to respect the copyright laws of your country. This corpus is intended for countries were literary works enter in the public domain 
+50 years after the death of the author. If you are in a country where literary works enter in the public domain 70 years after the death of the author, you can use this corpus as long as you filter out all the segments of a few authors. Please remember that translators have to be considered authors as well, as translations are creative works. You'll have to check the laws of the country where you are located before using this corpus. Filter out the works that you cannot use according to the laws of your country.
 
 Here it follows a description of the tables in the database. Please notice that the SQL database does not contain the audio files, but only their names.
 To download the audio files see [Links to Corpus Download](#links-to-corpus-download)
