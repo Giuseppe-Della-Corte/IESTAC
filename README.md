@@ -104,7 +104,7 @@ speakers
 ## Links to Corpus Download
 A binary file containing the 60561 triplets of parallel English audio, English text, and Italian textual translation is available as a <a href="https://www.kaggle.com/giuseppedellacorte/stt-aligned-audiobooks-en-it/">Kaggle dataset</a>. The Kaggle dataset also contains two parallel texts for textual Machine Translation.
 
-Numpy arrays containing 40-MFCC features extracted from the audio segments and aligned with their English transcription and their Italian textual translations are available through <a href="https://drive.google.com/file/d/19bpKRnIGwZU1bbFURSNCbi95xO8-xdk-/view?usp=sharing">Google Drive.</a>
+Downloadable link to numpy arrays containing 40-MFCC features extracted from the audio segments and aligned with their English transcription will be added. 
 
 ## Corpus Statistics 
 
