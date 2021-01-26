@@ -10,7 +10,7 @@ IESTAC (Italian-English speech and text audiobook corpus) is a corpus designed t
   * [Licence](#licence)
 
 ## Methodology
-To read in details the methodological approach, the experiments, and the evaluation of this corpus, please refer to <a href="https://www.aclweb.org/anthology/2020.nlpbt-1.5/">A Multi-Modal English-Italian Parallel Corpus for End-to-End Speech-to-Text Machine Translation</a>. What it follows is a table that provides a quick glance at the tasks tackled and the technologies used. 
+To read in details the methodological approach, the experiments, and the evaluation of this corpus, please refer to <a href="https://www.aclweb.org/anthology/2020.nlpbt-1.5/">IESTAC: English-Italian Parallel Corpus for End-to-End Speech-to-Text Machine Translation</a>. What it follows is a table that provides a quick glance at the tasks tackled and the technologies used. 
 
 | Task | Technology|
 | ------------- | ---: |
@@ -127,7 +127,7 @@ To use this work please cite:
 
 ```
 @inproceedings{della-corte-stymne-2020-multi,
-    title = "A Multi-Modal {E}nglish-{I}talian Parallel Corpus for End-to-End Speech-to-Text Machine Translation",
+    title = "IESTAC: English-Italian Parallel Corpus for End-to-End Speech-to-Text Machine Translation",
     author = "Della Corte, Giuseppe  and
       Stymne, Sara",
     booktitle = "Proceedings of the First International Workshop on Natural Language Processing Beyond Text",
